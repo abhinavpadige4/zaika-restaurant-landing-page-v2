@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaika Indian Restaurant - Authentic Indian Cuisine</title>
+    <meta name="description" content="Experience authentic Indian flavors at Zaika. Explore our menu, meet our chefs, and book your table for an unforgettable dining experience.">
+    <meta property="og:title" content="Zaika Indian Restaurant - Authentic Indian Cuisine">
+    <meta property="og:description" content="Experience authentic Indian flavors at Zaika. Explore our menu, meet our chefs, and book your table for an unforgettable dining experience.">
+    <meta property="og:image" content="assets/images/hero.jpg">
+    <meta property="og:url" content="https://zaika-restaurant-landing-page-v2.vercel.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L2 17L12 22L22 17L12 12L22 7L12 2Z" fill="var(--primary-red)"/>
+                        <path d="M2 7H22V17H2V7Z" fill="var(--secondary-gold)" opacity="0.2"/>
+                    </svg>
+                    <span>Zaika</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#chefs">Chefs</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#booking">Book Table</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience the True Flavors of India</h1>
+                <p class="tagline">Where tradition meets taste in every bite</p>
+                <a href="#booking" class="btn-primary">Book Your Table</a>
+                <a href="#menu" class="btn-secondary">Explore Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Exquisite Menu</h2>
+            <p class="section-subtitle">Carefully crafted dishes that celebrate Indian culinary heritage</p>
+            
+            <div class="menu-grid">
+                <!-- Starters -->
+                <div class="menu-category">
+                    <h3>Starters</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Samosa Chaat</h4>
+                            <p>Crispy pastry filled with spiced potatoes and peas, topped with yogurt and chutney</p>
+                            <span class="price">$8.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Paneer Tikka</h4>
+                            <p>Marinated cottage cheese grilled to perfection with bell peppers and onions</p>
+                            <span class="price">$12.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Chicken 65</h4>
+                            <p>Spicy deep-fried chicken bites with curry leaves and green chilies</p>
+                            <span class="price">$14.99</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Main Course -->
+                <div class="menu-category">
+                    <h3>Main Course</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Butter Chicken</h4>
+                            <p>Tender chicken in rich tomato-based gravy with butter and cream</p>
+                            <span class="price">$18.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Paneer Butter Masala</h4>
+                            <p>Soft paneer cubes in creamy tomato gravy with aromatic spices</p>
+                            <span class="price">$16.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Lamb Rogan Josh</h4>
+                            <p>Slow-cooked lamb in Kashmiri gravy with aromatic whole spices</p>
+                            <span class="price">$22.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Vegetable Biryani</h4>
+                            <p>Fragrant basmati rice cooked with mixed vegetables and saffron</p>
+                            <span class="price">$15.99</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Breads -->
+                <div class="menu-category">
+                    <h3>Breads</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Garlic Naan</h4>
+                            <p>Soft leavened bread infused with fresh garlic and cilantro</p>
+                            <span class="price">$4.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Butter Roti</h4>
+                            <p>Whole wheat flatbread brushed with clarified butter</p>
+                            <span class="price">$3.99</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Desserts -->
+                <div class="menu-category">
+                    <h3>Desserts</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Gulab Jamun</h4>
+                            <p>Soft milk-solid balls soaked in rose-flavored sugar syrup</p>
+                            <span class="price">$6.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Kulfi</h4>
+                            <p>Traditional Indian ice cream in pistachio and mango flavors</p>
+                            <span class="price">$7.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Chefs Section -->
+    <section id="chefs" class="chefs">
+        <div class="container">
+            <h2 class="section-title">Meet Our Master Chefs</h2>
+            <p class="section-subtitle">The culinary artists behind Zaika's authentic flavors</p>
+            
+            <div class="chefs-grid">
+                <div class="chef-card">
+                    <div class="chef-image">
+                        <img src="assets/images/chef1.jpg" alt="Chef Rajesh Kumar - Executive Chef" loading="lazy">
+                    </div>
+                    <div class="chef-info">
+                        <h3>Chef Rajesh Kumar</h3>
+                        <p class="chef-title">Executive Chef</p>
+                        <p class="chef-bio">With over 20 years of experience in North Indian cuisine, Chef Rajesh specializes in traditional Mughlai dishes and has trained under master chefs in Delhi and Lucknow.</p>
+                        <div class="chef-specialties">
+                            <span>Butter Chicken</span>
+                            <span>Biryani</span>
+                            <span>Tandoori Specialties</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chef-card">
+                    <div class="chef-image">
+                        <img src="assets/images/chef2.jpg" alt="Chef Priya Sharma - Sous Chef" loading="lazy">
+                    </div>
+                    <div class="chef-info">
+                        <h3>Chef Priya Sharma</h3>
+                        <p class="chef-title">Sous Chef</p>
+                        <p class="chef-bio">Expert in South Indian vegetarian cuisine, Chef Priya brings authentic flavors from Kerala and Tamil Nadu to every dish she creates.</p>
+                        <div class="chef-specialties">
+                            <span>Dosa Varieties</span>
+                            <span>Idli & Vada</span>
+                            <span>Coconut Chutneys</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chef-card">
+                    <div class="chef-image">
+                        <img src="assets/images/chef3.jpg" alt="Chef Aman Patel - Pastry Chef" loading="lazy">
+                    </div>
+                    <div class="chef-info">
+                        <h3>Chef Aman Patel</h3>
+                        <p class="chef-title">Pastry Chef</p>
+                        <p class="chef-bio">Specializing in Indian sweets and desserts, Chef Aman creates traditional mithai with modern presentations that delight both the eyes and palate.</p>
+                        <div class="chef-specialties">
+                            <span>Gulab Jamun</span>
+                            <span>Rasmalai</span>
+                            <span>Jalebi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Guests Say</h2>
+            <p class="section-subtitle">Authentic experiences from our valued customers</p>
+            
+            <div class="testimonials-carousel">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <p>"Absolutely incredible! The butter chicken was the best I've ever had outside of India. The ambiance and service made it a perfect evening."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial1.jpg" alt="Sarah Johnson" loading="lazy">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>Food Critic & Blogger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Celebrated our anniversary here and it was perfect. The lamb rogan josh was melt-in-your-mouth tender and the garlic naan was fresh and warm."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial2.jpg" alt="Michael Chen" loading="lazy">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"As a vegetarian, I was thrilled with the options. The paneer butter masala and vegetable biryani were outstanding. Will definitely be back!"</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial3.jpg" alt="Priya Desai" loading="lazy">
+                            <div>
+                                <h4>Priya Desai</h4>
+                                <p>Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking/Contact Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2 class="section-title">Book Your Table</h2>
+            <p class="section-subtitle">Reserve your spot for an unforgettable dining experience</p>
+            
+            <div class="booking-form-container">
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="date">Date *</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="time">Time *</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="guests">Number of Guests *</label>
+                        <input type="number" id="guests" name="guests" min="1" max="20" placeholder="Number of guests" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Special Requests</label>
+                        <textarea id="message" name="message" placeholder="Any dietary restrictions or special occasions?" rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Make Reservation</button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+            
+            <div class="booking-info">
+                <div class="info-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" stroke="var(--primary-red)" stroke-width="2"/>
+                        <path d="M12 8V12L16 16" stroke="var(--primary-red)" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <div>
+                        <h4>Location</h4>
+                        <p>123 Spice Street, Mumbai, India</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" fill="var(--primary-red)"/>
+                    </svg>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 14h16v-2H4v2zm0-4h16V9H4v2zm6-4h8V5h-2v2h-4V5zm0 6h8v2h-8v-2z" fill="var(--primary-red)"/>
+                    </svg>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@zaikarestaurant.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L2 17L12 22L22 17L12 12L22 7L12 2Z" fill="var(--primary-red)"/>
+                        <path d="M2 7H22V17H2V7Z" fill="var(--secondary-gold)" opacity="0.2"/>
+                    </svg>
+                    <span>Zaika</span>
+                </div>
+                <p>&copy; 2026 Zaika Indian Restaurant. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#chefs">Chefs</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#booking">Book Table</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/carousel.js"></script>
+</body>
+</html>
